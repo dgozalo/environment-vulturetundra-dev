@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAJ6SGm16Lslrw2nIVtCKV0kwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkZDUxNTU0MTYtMjVjZS00YmZiLWE5ZjMtNWQ4ZDBjMjI5ZDg2
+    MB4XDTE5MDUwNzEwMDkzNFoXDTI0MDUwNTExMDkzNFowLzEtMCsGA1UEAxMkZDUx
+    NTU0MTYtMjVjZS00YmZiLWE5ZjMtNWQ4ZDBjMjI5ZDg2MIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAmnIlUe3h6TI4mF61Ck3Zcg/DjXpxGDlpYResodlK
+    t5FjJI+UpERbSsLJSmC7Av4H+SNxcRCk59m2nWOBWKexjea2XtH9O9tYG3VuWbzP
+    Wlwfx1SnggP7YtMJOj1UweMbZyzIBXjycmlktCWXyiROIJgbD3AgSwKzYBR2GY44
+    0xnXF0pPgAMMCv6rurovCEek38oRPGbIlCDhfoVfeoqoDhsHKDePZCC/J6cRgT1k
+    CtUAf5Xr1Twb1UhZYpGXHANLZakc4oa5Ay7kW3ukYQWcOY6HYNFR8el+U5DqboO5
+    f6SBivGol8/CswLoUIU0bJfoROzzj/j85JgfLzrrdXva/wIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    gJJAMPsy11E+QsabQUWVFbUd0NSaeW9cIusI5PZ2YOCfZTRsx+irGAsXe+jkUHHb
+    UcAKIUwx+ph6bWVP0Vux1rjv6RGhOfcdM8GI4b1Ln9kkU+9aTgd6P0uWGiAeoHBk
+    XgkIUgfPhM+C/jAeiAMV5Cc4pStJtaCVkDfhidpHI26VupwzFSQhovv3MQgKYxy6
+    wLObSN6XTFkpnVBO5+ypswrUC7ZkXjDeMrwAihHte7Z3UEWKF3kQBwE+Iurb+ERZ
+    1r7HL3wInNbJZdmYJGUzQD8S28e8Vp+/uf9OTmMspu76rMrbL1FRddW3SnJau2HE
+    JxgEV/NXfxw81nZ8h0bZeQ==
+    -----END CERTIFICATE-----
+  clusterName: vulturetundra
+  jx-install-version: 2.0.0-dev+3ca6a4549
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.195.5.229
+  systemVaultName: jx-vault-vulturetundra
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
